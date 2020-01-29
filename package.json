@@ -1,0 +1,25 @@
+{
+  "name": "array-extras",
+  "version": "1.0.0",
+  "description": "Some extra functionality for JavaScript arrays",
+  "main": "arrays.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IcaroAugusto/array-extras.git"
+  },
+  "keywords": [
+    "arrays",
+    "extras",
+    "methods",
+    "extra"
+  ],
+  "author": "IcaroAugusto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IcaroAugusto/array-extras/issues"
+  },
+  "homepage": "https://github.com/IcaroAugusto/array-extras#readme"
+}
