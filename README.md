@@ -6,22 +6,22 @@ I will add to it any functions that I find useful, but that are not implemented 
 ## Implemented functions
 
 * `Array.prototype.sample = function()`
-** Returns a random element from the array
+  * Returns a random element from the array
 
 * `Array.prototype.take = function()`
-** Returns a random element from the array and removes the element from it
+  * Returns a random element from the array and removes the element from it
 
 * `Array.prototype.last = function()`
-** Returns the last element from the array
+  * Returns the last element from the array
 
 * `Array.prototype.shuffle = function()`
-** Shuffles the values of the array
+  * Shuffles the values of the array
 
 * `Array.prototype.shuffled = function()`
-** Returns a copy of the array with shuffled elements
+  * Returns a copy of the array with shuffled elements
 
 * `Array.prototype.swap = function(ind1, ind2)`
-** Returns the last index of the array
+  * Returns the last index of the array
 
 ## Author
 
