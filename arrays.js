@@ -3,7 +3,7 @@ Array.prototype.sample = function() {
   return this[Math.floor(Math.random()*this.length)];
 }
 
-//Returns a random element from the array and deletes it
+//Returns a random element from the array and removes the element from it
 Array.prototype.take = function() {
   var index = Math.floor(Math.random()*this.length);
   var result = this[index];
@@ -45,7 +45,7 @@ Array.prototype.swap = function(ind1, ind2) {
   this[ind2] = buffer;
 }
 
-//Last index of the array
+//Returns the last index of the array
 Array.prototype.high = function() {
   return this.length-1;
 }
