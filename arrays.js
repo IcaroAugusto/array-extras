@@ -4,7 +4,7 @@ Array.prototype.sample = function() {
 }
 
 //Returns a random element from the array and deletes it
-Array.prototype.pick = function() {
+Array.prototype.take = function() {
   var index = Math.floor(Math.random()*this.length);
   var result = this[index];
   this.splice(index, 1);
@@ -36,4 +36,16 @@ Array.prototype.shuffled = function() {
   var result = this.slice();
   result.shuffle();
   return result;
+}
+
+//Swap two elements of the array
+Array.prototype.swap = function(ind1, ind2) {
+  var buffer = this[ind1];
+  this[ind1] = this[ind2];
+  this[ind2] = buffer;
+}
+
+//Last index of the array
+Array.prototype.high = function() {
+  return this.length-1;
 }
