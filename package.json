@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/IcaroAugusto/array-extras/issues"
   },
-  "homepage": "https://github.com/IcaroAugusto/array-extras#readme"
+  "homepage": "https://github.com/IcaroAugusto/array-extras#readme",
+  "dependencies": {}
 }
