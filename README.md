@@ -5,7 +5,7 @@ I will add to it any methods that I find useful, but that are not implemented by
 
 ## Installing
 
-`npm install array-extras`
+`npm install array-extra-methods`
 
 ## Implemented methods
 
