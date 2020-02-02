@@ -1,13 +1,13 @@
-# Node.js Array Extra functions
+# Node.js Array Extra methods
 
-Those are some extra functions for the Array prototype in nodejs.
-I will add to it any functions that I find useful, but that are not implemented by default.
+Those are some extra methods for the Array prototype in nodejs.
+I will add to it any methods that I find useful, but that are not implemented by default.
 
 ## Installing
 
 `npm install array-extras`
 
-## Implemented functions
+## Implemented methods
 
 * `Array.prototype.sample = function()`
   * Returns a random element from the array

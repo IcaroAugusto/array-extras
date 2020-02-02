@@ -1,5 +1,5 @@
 {
-  "name": "array-extras",
+  "name": "array-extra-methods",
   "version": "1.0.0",
   "description": "Some extra functionality for JavaScript arrays",
   "main": "arrays.js",
