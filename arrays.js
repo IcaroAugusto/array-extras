@@ -49,3 +49,18 @@ Array.prototype.swap = function(ind1, ind2) {
 Array.prototype.high = function() {
   return this.length-1;
 }
+
+//Will divide the array into a group of 'amount' arrays
+Array.prototype.group = function(amount) {
+  var result = new Array(amount);
+  for (var i = result.length - 1; i >= 0; i--) {
+    result[i] = [];
+  }
+  var j = 0;
+  for (var i = this.length - 1; i >= 0; i--) {
+    result[j].push(this[i]);
+    j++;
+    if (j >= amount) j = 0;
+  }
+  return result;
+}

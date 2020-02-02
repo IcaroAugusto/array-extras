@@ -3,6 +3,10 @@
 Those are some extra functions for the Array prototype in nodejs.
 I will add to it any functions that I find useful, but that are not implemented by default.
 
+## Installing
+
+`npm install array-extras`
+
 ## Implemented functions
 
 * `Array.prototype.sample = function()`
@@ -21,7 +25,13 @@ I will add to it any functions that I find useful, but that are not implemented 
   * Returns a copy of the array with shuffled elements
 
 * `Array.prototype.swap = function(ind1, ind2)`
+  * Swaps both values of an array
+
+* `Array.prototype.high = function()`
   * Returns the last index of the array
+
+* `Array.prototype.group = function(amount)`
+  * Divides the array into "amount" groups, don't change the array
 
 ## Author
 
@@ -32,6 +42,6 @@ I will add to it any functions that I find useful, but that are not implemented 
 
 ## Changelogs
 
-### 1.0
+### 1.0.0
 
-Added.
+Created.
