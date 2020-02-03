@@ -33,6 +33,9 @@ I will add to it any methods that I find useful, but that are not implemented by
 * `Array.prototype.group = function(amount)`
   * Divides the array into "amount" groups, don't change the array
 
+* `Array.prototype.groupLen = function(amount)`
+  * Divides the array into groups of 'len' length, don't change the array
+
 ## Author
 
 Ícaro Augusto
