@@ -45,6 +45,14 @@ I will add to it any methods that I find useful, but that are not implemented by
 
 ## Changelogs
 
+### 1.0.2
+
+groupLen method added
+
+### 1.0.1
+
+group method added
+
 ### 1.0.0
 
 Created.
