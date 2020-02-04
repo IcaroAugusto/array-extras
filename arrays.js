@@ -67,5 +67,5 @@ Array.prototype.group = function(amount) {
 
 //Divides the array into groups of 'len' length
 Array.prototype.groupLen = function(len) {
-  return this.group(Math.floor(this.length/len);
+  return this.group(Math.floor(this.length/len));
 }
